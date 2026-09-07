@@ -110,23 +110,14 @@
     font-weight:600;
     font-size:23px;
     letter-spacing:.01em;
-    color:var(--ink-dim);
-    margin-top:2px;
+    margin-top:-6px;
+    background:linear-gradient(135deg,#8B8E9B,#C7CAD2);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
     opacity:0;
     animation:rise .7s cubic-bezier(.2,.7,.3,1) .18s forwards;
   }
-  .tagline{
-    margin-top:24px;
-    font-size:15px;
-    font-weight:400;
-    color:var(--ink-dim);
-    line-height:1.75;
-    max-width:340px;
-    text-wrap:balance;
-    opacity:0;
-    animation:rise .7s cubic-bezier(.2,.7,.3,1) .26s forwards;
-  }
-  .tagline b{color:var(--ink);font-weight:600;}
 
   @keyframes rise{
     from{opacity:0; transform:translateY(14px);}
@@ -291,9 +282,6 @@
     <h1 class="name-he">יגל בר</h1>
     <div class="name-en">Yagel&nbsp;Bar</div>
 
-    <p class="tagline">
-      <b>יוצר תוכן ויזם חברתי</b>. מייסד מיזם ההנצחה <b>"לזכרם"</b>, ומנחה סדנאות בבתי ספר ולארגונים.
-    </p>
   </header>
 
   <nav class="links col" aria-label="קישורים">
